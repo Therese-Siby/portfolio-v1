@@ -1,0 +1,309 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.list-item {
+    list-style: none;
+    display: inline;
+    margin: 0px 15px;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.links:hover {
+    color: red;
+    text-decoration: underline;
+}
+.home-content{
+    margin: 13% 0px 0px 8% ;
+}
+#username{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: "Satisfy", serif;
+    color: rgb(36, 35, 35);
+}
+#lname{
+    font-family: "Abel", sans-serif;
+color: orange;
+}
+#userDetails{
+    line-height: 1.2 ;
+}
+#download{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+#home {
+    display: flex; /* Arrange children in a row */
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Space out children */
+    padding: 0 5%; /* Optional: Add some horizontal padding */
+  }
+  
+  .home-container {
+    display: flex;
+    width: 100%; /* Take full width of the container */
+    align-items: center; /* Vertical alignment */
+    justify-content: space-between; /* Create space between the content and image */
+  }
+  
+  .home-content {
+    width: 50%; /* Allocate 50% width for text content */
+    padding-right: 2rem; /* Add space between content and image */
+  }
+  
+  .homeimage {
+    width: 40%; /* Allocate 40% width for the image */
+    display: flex; /* Keep images aligned */
+    justify-content: center; /* Center-align images */
+    align-items: flex-end; /* Align images at the bottom */
+    position: relative;
+  }
+  
+  #shape {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+  }
+  
+  #girl {
+    position: relative;
+    z-index: 2;
+    width: 70%;
+  }
+  
+.group1 {
+    position: relative; /* Avoid absolute unless necessary */
+    width: 90%; /* Constrain image width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 300px; /* Optional: Limit max size */
+    transition: all 0.3s ease; /* Smooth transition for hover */
+}
+
+
+/* Hover effects */
+.homeimage:hover #shape {
+    bottom: 20px; /* Adjust hover translation */
+}
+
+.homeimage:hover #girl {
+    transform: translateX(-20%); /* Move girl slightly */
+}out{
+    margin: 15% 8% 0px 8%;
+}
+.sectionhead{
+    font-size: 30px;
+    
+}
+
+.mainhead{
+    font-size: 30px;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.subhead{
+    font-size: 20px;
+color: green;
+justify-content: center;
+    margin-left: 30.5%;
+   
+}
+.aboutBody{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    align-items: center;
+}
+.img1{
+    width: 80%;
+}
+.aboutContent{
+    font-size: 18px;
+    text-align: justify; 
+}
+.informations{
+    margin-top: 1.3rem;
+}
+.infoBox{
+    margin-bottom: 8px;
+}
+.infoBox>span{
+    margin-left: 10px;
+}
+#skills{
+    margin: 8% 8% 0px 8%;
+}
+.skillcontent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+    margin-top: 20px;
+}
+.bars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.barHead,.barpercent{
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.basebar{
+    width:100% ;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -5px;
+}
+.htmlbar{
+    background-color: orange;
+    width: 89%;
+}
+.cssbar{
+    background-color: orange;
+    width: 75%;
+}
+.JSbar{
+    background-color: orange;
+    width: 54%;
+}
+.Reactbar{
+    background-color: orange;
+    width: 40%;
+}
+/* Center align the sectionHead content */
+.sectionHead {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers both the mainHead and subHead */
+    text-align: center; /* Ensures text inside is aligned */
+    margin-top: 5%; /* Adjust margin as needed */
+}
+
+/* Adjust subhead spacing */
+.subHead {
+    font-size: 20px;
+    color: green;
+    margin-top: 0.5rem; /* Adds spacing between mainHead and subHead */
+}
+
+#Contact{
+    margin: 8% 8% 0px 8%;
+}
+.iconcollections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    /* border: solid; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.brands{
+    color: black;
+    font-size: 2rem;
+}
+
+.icon:hover{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+
+.icon:hover .brands{
+    color: white;
+    /* animations */
+    animation: rotate 3s;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(40deg);
+    }
+    20%{
+        transform: rotate(-40deg);
+
+    }
+    40%{
+        transform: rotate(40deg);
+
+    }
+    60%{
+        transform: rotate(-40deg);
+
+    }
+    80%{
+        transform: rotate(40deg);
+
+    }
+    100%{
+        transform: rotate(-40deg);
+
+    }
+}
+footer{
+    margin: 8% 0px 0px 0px;
+}
+#copyright{
+    text-align: center;
+    font-weight: bold;
+}
+
+.upArrow{
+    float: right;
+    margin-top: -35px;
+}
+html{
+   scroll-behavior: smooth; 
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(205, 205, 246);
+ 
+}
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+}
